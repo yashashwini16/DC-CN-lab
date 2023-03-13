@@ -32,6 +32,6 @@ break;
 }
 }
 serversocket.close();
-
+sc.close();
 }
 }
