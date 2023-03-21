@@ -3,10 +3,10 @@
 
      Lab Experiments: 
    
-1	Learn to use commands like tcpdump, netstat, ifconfig, nslookup and traceroute. Capture ping and traceroute PDUs using a network protocol analyzer and examine.	L3
-2	Write a program for error detecting code using CRC-CCITT (16- bits).	L3
-3	Write a program to find the shortest path between vertices using bellman-ford algorithm.	L3
-4	Applications using TCP sockets like:
+    1	Learn to use commands like tcpdump, netstat, ifconfig, nslookup and traceroute. Capture ping and traceroute PDUs using a network protocol analyzer and examine.	L3
+    2	Write a program for error detecting code using CRC-CCITT (16- bits).	L3
+    3	Write a program to find the shortest path between vertices using bellman-ford algorithm.	L3
+    cc4	Applications using TCP sockets like:
   a) Echo client and echo server
   b) Chat
   c) File Transfer	L3
