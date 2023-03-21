@@ -48,6 +48,6 @@ System.out.println(+i+ "\t\t" +a[i] +"\t\t" +recv +"\t" +sent + "\t" +buck_rem);
 }
 }
 }
-
+//this is leacky bucket algorithm
 
 
