@@ -8,7 +8,7 @@ public static void main(String args[])
 try
 {
 BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
-Socket clsct=new Socket("127.0.0.1",5604);
+Socket clsct=new Socket("127.0.0.1",5604);//socket is created
 DataInputStream din=new DataInputStream(clsct.getInputStream());
 DataOutputStream dout=new DataOutputStream(clsct.getOutputStream());
 System.out.println("Enter the Logical address(IP):");
@@ -24,6 +24,6 @@ System.out.println(e);
 }
 }
 }
-
+//this is address resolution protocol algorithm
 
 
