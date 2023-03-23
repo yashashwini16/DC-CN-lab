@@ -83,5 +83,5 @@ public class Slide_Receiver
           R.run();
      }
 }
-
+// this is slide receiver program
 
