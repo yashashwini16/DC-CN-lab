@@ -44,3 +44,4 @@ ssock.close();
 bis.close();
 System.out.println("File sent succesfully!");
 } }
+//file transfer where user can send the msg
