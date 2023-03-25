@@ -25,6 +25,7 @@ System.out.println("\n Server:");
 String serverdata=sc.nextLine();
 sendbuffer=serverdata.getBytes();
 DatagramPacket sendpacket=new DatagramPacket(sendbuffer,sendbuffer.length,ip,portno);
+//server will send the packet after its retrival from sender
 serversocket.send(sendpacket);
 if(serverdata.equalsIgnoreCase("bye"))
 {
