@@ -15,6 +15,7 @@ while(true)
 byte[] receivebuffer=new byte[1024];
 byte[] sendbuffer=new byte[1024];
 DatagramPacket recvdpkt=new DatagramPacket(receivebuffer,receivebuffer.length);
+//server will receive the packet sent by sender
 serversocket.receive(recvdpkt);
 InetAddress ip=recvdpkt.getAddress();
 int portno=recvdpkt.getPort();
